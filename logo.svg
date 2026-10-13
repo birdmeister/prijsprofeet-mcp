@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9E3D"/>
+      <stop offset="100%" stop-color="#F27405"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F4F6F8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Badge background -->
+  <rect x="8" y="8" width="224" height="224" rx="52" fill="url(#bgGrad)"/>
+  <rect x="8" y="8" width="224" height="224" rx="52" fill="none" stroke="#D95F00" stroke-width="2" opacity="0.35"/>
+
+  <!-- Price tag body -->
+  <g transform="rotate(-12 120 120)">
+    <path d="M 88 62
+             L 152 62
+             Q 158 62 158 68
+             L 158 142
+             Q 158 148 152 148
+             L 100 148
+             L 66 178
+             Q 63 181 60 177
+             L 66 148
+             Q 88 142 88 136
+             Z"
+          fill="url(#tagGrad)"/>
+    <circle cx="76" cy="80" r="6" fill="#F27405"/>
+  </g>
+
+  <!-- Trending-up arrow (deal found) -->
+  <path d="M 82 122
+           L 108 96
+           L 120 108
+           L 146 80"
+        fill="none"
+        stroke="#1B2A4A"
+        stroke-width="9"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  <path d="M 132 72
+           L 152 78
+           L 146 98"
+        fill="none"
+        stroke="#1B2A4A"
+        stroke-width="9"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>

@@ -1,4 +1,4 @@
-# prijsprofeet-mcp
+# <img src="logo.svg" width="50" alt="PrijsProfeet MCP logo"> prijsprofeet-mcp
 Unofficial MCP server for the PrijsProfeet API
 
 > **Warning:** This is an unofficial project and is not developed, endorsed, or supported by PrijsProfeet.  
